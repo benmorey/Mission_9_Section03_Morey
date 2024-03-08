@@ -36,3 +36,16 @@
     transform: rotate(360deg);
   }
 }
+
+.card {
+  width: 100%;
+  height: 100%;
+  background-color: lightblue;
+  transition: width 0.2s, height 0.2s, transform 0.2s;
+}
+
+.card:hover {
+  width: 105%;
+  height: 105%;
+  transform: scale(1.1);
+}
